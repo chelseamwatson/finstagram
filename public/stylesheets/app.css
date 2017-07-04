@@ -1,0 +1,32 @@
+header {
+    background-color: #37737D;
+    color: white;
+    padding-left: 16px;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.post .user-info {
+    vertical-align: middle;
+}
