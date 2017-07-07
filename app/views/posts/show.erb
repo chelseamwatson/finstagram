@@ -10,8 +10,7 @@
         <% end %>
     </div>
 </header>
+
 <main role="main">
-    <% @posts.each do |post| %>
-        <%= erb(:'shared/post', {locals: { post: post}}) %>
-    <% end %>
+    <%= erb(:'shared/post', { locals: { post: @post }}) %>
 </main>
